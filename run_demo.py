@@ -6,6 +6,8 @@ import threading
 import os
 from importlib import import_module
 
+import uvicorn
+
 
 def install_dependencies():
     """Install required Python packages"""
